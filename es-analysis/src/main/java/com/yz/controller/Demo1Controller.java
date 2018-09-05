@@ -19,7 +19,7 @@ import java.util.List;
 
 /**
  * 自定义分词
- *
+ * @author yazhong
  */
 @RestController
 @RequestMapping("/demo1")

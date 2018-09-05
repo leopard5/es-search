@@ -10,9 +10,12 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
+ * Product
+ *
+ * @author yazhong
  */
 @Data
-@Document(indexName = "goods", type = "product")   //要加,不然报空指针异常
+@Document(indexName = "goods", type = "product")
 public class Product implements Serializable {
 
     @Id
