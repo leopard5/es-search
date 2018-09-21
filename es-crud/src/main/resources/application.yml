@@ -7,6 +7,12 @@ spring:
       cluster-nodes: 127.0.0.1:9300
       repositories:
         enabled: true
-logging:
-  level:
-    com.yz: debug
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirms: false
+    virtual-host: /
+
+
