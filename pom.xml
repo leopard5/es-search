@@ -31,30 +31,32 @@
     </properties>
 
     <dependencies>
-        <!-- Exclude Spring Boot's Default Logging -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-logging</artifactId>
-                </exclusion>
-            </exclusions>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
-        <!-- Add Log4j2 Dependency -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-log4j2</artifactId>
-        </dependency>
-        <!-- Log4j2 异步支持 -->
-        <dependency>
-            <groupId>com.lmax</groupId>
-            <artifactId>disruptor</artifactId>
-            <version>3.3.6</version>
-        </dependency>
-
+        <!--&lt;!&ndash; Exclude Spring Boot's Default Logging &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter</artifactId>-->
+            <!--<exclusions>-->
+                <!--<exclusion>-->
+                    <!--<groupId>org.springframework.boot</groupId>-->
+                    <!--<artifactId>spring-boot-starter-logging</artifactId>-->
+                <!--</exclusion>-->
+            <!--</exclusions>-->
+        <!--</dependency>-->
+        <!--&lt;!&ndash; Add Log4j2 Dependency &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-log4j2</artifactId>-->
+        <!--</dependency>-->
+        <!--&lt;!&ndash; Log4j2  &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>com.lmax</groupId>-->
+            <!--<artifactId>disruptor</artifactId>-->
+            <!--<version>3.3.6</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -103,6 +105,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.kafka</groupId>-->
+            <!--<artifactId>spring-kafka</artifactId>-->
+            <!--<version>1.1.1.RELEASE</version>-->
+        <!--</dependency>-->
     </dependencies>
 
     <build>

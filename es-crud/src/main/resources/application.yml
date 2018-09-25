@@ -1,5 +1,5 @@
 server:
-  port: 8020
+  port: 8040
 
 spring:
   data:
@@ -14,5 +14,5 @@ spring:
     password: guest
     publisher-confirms: false
     virtual-host: /
-
-
+logging:
+  config: classpath:logback-boot.xml

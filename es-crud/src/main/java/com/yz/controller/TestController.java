@@ -12,9 +12,11 @@ public class TestController {
     @Autowired
     private HelloSender1 helloSender1;
 
-    public Object sendMessage(){
+    @RequestMapping("/abc")
+    public Object sendMessage() {
         helloSender1.send();
         return null;
     }
+
 
 }
