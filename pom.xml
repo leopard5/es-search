@@ -19,8 +19,8 @@
     <name>es-search</name>
 
     <modules>
-        <module>es-analysis</module>
-        <module>es-crud</module>
+        <module>es-search-service</module>
+        <module>es-data-push</module>
     </modules>
 
     <properties>
