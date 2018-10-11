@@ -14,6 +14,7 @@
 
 ## Component
 ![Component](https://github.com/leopard5/images-folder/blob/master/search/data_push_compent.jpg)
-![Component](https://github.com/leopard5/images-folder/blob/master/search/dependency.jpg)
+![dependency](https://github.com/leopard5/images-folder/blob/master/search/dependency.jpg)
 
-
+## CDC solution
+![cdc](https://github.com/leopard5/images-folder/blob/master/search/cdc_solution.png)
